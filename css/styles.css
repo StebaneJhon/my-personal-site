@@ -1,0 +1,559 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+#nav {
+    background-color: #16325B;
+    display: flex;
+    justify-content: center;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #EEF5FF;
+    padding: 1rem 10px;
+    width: 50%;
+}
+
+#owner {
+    display: flex;
+    align-items: center;
+}
+
+.owner-name {
+    display: inline;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    font-weight: 700;
+}
+
+#me {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: left;
+    margin-right: 10px;
+}
+
+.section-nav {
+    width: 50%;
+}
+
+#navigation > ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0;
+    padding-inline-start: 0;
+}
+
+.nav-buttons {
+    color: #EEF5FF;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 0.5rem;
+}
+
+.nav-buttons:hover {
+    text-decoration: underline;
+    transition: text-decoration 2s;
+}
+
+#hero {
+    background-color: #16325B;
+    color: #EEF5FF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#introduction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#introduction > div {
+    width: 50%;
+    margin-top: 20vh;
+    margin-bottom:  20vh;
+}
+
+#introduction > div > p {
+    clear: both;
+}
+
+.text-app-developer {
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.container-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-location > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #227B94;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.location-icon {
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.text-location {
+    display: inline;
+    margin: 0;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#socials > a {
+    background-color: #FFDC7F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #16325B;
+    font-size: 1.5rem;
+}
+
+#socials img {
+    height: 30px;
+}
+
+h1 {
+    font-size: 6.5rem;
+    margin: 0;
+    font-family: "Forum", serif;
+}
+
+h2 {
+    margin: 0;
+    font-size: 4.5rem;
+    font-weight: 450;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: 450;
+}
+
+a {
+    color: #EEF5FF;
+    text-decoration: none;
+}
+
+
+
+
+#about {
+    background-color: #FFDC7F;
+    color: #3C3728;
+    padding: 50px 0;
+}
+
+#about > h2 {
+    margin-left: 50px;
+}
+
+#about  p {
+    margin: 0;
+}
+
+#tools {
+    margin: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 0;
+}
+
+#tools > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem;
+    height: 50px;
+    background-color: #16325B;
+    border-radius: 10px;
+    color: #FFDC7F;
+}
+
+#image-xml {
+    height: 40px;
+}
+
+#tools li i {
+    font-size: 2rem;
+}
+
+.container-section-about {
+    display: flex;
+}
+
+.section-about {
+    width: 50%;
+    margin: 50px;
+}
+
+.section-about > h3 {
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+#projects {
+    background-color: #16325B;
+    color: #EEF5FF;
+    padding: 50px 0 0 0;
+}
+
+#projects > h2 {
+    margin: 0 50px 50px 50px;
+}
+
+.container-all-project {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container-all-project > li {
+    background-color: #16325B;
+    transition: background-color 0.5s;
+}
+
+.container-all-project > li:hover {
+    background-color: #227B94;
+}
+
+
+.container-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+.container-all-project hr {
+    border: 0;
+    margin: 0;
+    height: 0.1rem;
+    background-color: #227B94;
+    margin: 0 50px;
+}
+
+.project-details {
+    width: 30vw;
+    margin-right: 0.5rem;
+}
+
+.name-project {
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: 450;
+}
+
+.description-project {
+    margin: 0;
+    display: inline-block;
+}
+
+.image-project {
+    width: 120px;
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+
+.container-image-project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+    width: 70vw;
+}
+
+#punktensSpel {
+    width: 40%;
+    height: auto;
+}
+
+
+
+#contact {
+    background-color: #FFDC7F;
+    color: #3C3728;
+    padding: 50px;
+}
+
+#contact > div {
+    display: flex;
+    justify-content: end;
+}
+
+
+#contact a {
+    background-color: #16325B;
+    color: #FFDC7F;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 450;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact a p {
+    display: inline-block;
+    margin: 0;
+}
+
+
+#contact a span {
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+}
+
+#contact a:hover {
+    background-color: #227B94;
+}
+
+footer {
+    background-color: #16325B;
+    color: #EEF5FF;
+    display: flex;
+    padding: 50px 0 20px 50px;
+    justify-content: space-between;
+}
+
+#hr-footer {
+    border: 0;
+    margin: 0;
+    height: 0.1rem;
+    background-color: #227B94;
+    display: none;
+}
+
+footer h4 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 450;
+    margin-bottom: 0.5rem;
+    color: #B4D4FF;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 450;
+}
+
+#text-social {
+    margin-left: 50px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: #EEF5FF;
+    font-weight: 450;
+    margin-right: 0.5rem;
+}
+
+footer a:hover {
+    color: #EEF5FF;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .container-nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-nav {
+        width: 100%;
+    }
+    #owner {
+        justify-content: center;
+    }
+    #navigation {
+        margin-top: 10px;
+    }
+
+    #introduction > div {
+        width: 80%;
+    }
+
+    .container-nav {
+        width: 80%;
+    }
+
+    #navigation > ul {
+        justify-content: center;
+    }
+
+    #about {
+        text-align: center;
+        padding: 5rem;
+    }
+
+    #about > h2 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .container-section-about {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-about {
+        width: 100%;
+        margin: 1rem;
+    }
+
+    #projects {
+        text-align: center;
+    }
+    .container-project {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 25px 50px;
+        padding: 0 25px;
+    }
+    .project-details {
+        width: 100%;
+        margin-right: 0.5rem;
+    }
+    .container-image-project {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0.5rem;
+        width: 100%;
+    }
+    .image-not-visible-on-tablet-and-below {
+        display: none;
+    }
+    #punktensSpel {
+        width: 70%;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 50px 50px 20px 50px;
+    }
+    #hr-footer {
+        margin: 0.5rem 0;
+        height: 0.1rem;
+        background-color: #227B94;
+        display: block;
+    }
+    #text-social{
+        margin-left: 0;
+    }
+    footer li {
+        margin: 0 0;
+    }
+}
+
+@media (max-width: 426px) {
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    #about {
+        text-align: center;
+        padding: 50px 25px 50px 25px;
+    }
+    .section-about {
+        width: 100%;
+        margin: 0.5rem;
+    }
+
+    #projects > h2 {
+        margin: 0;
+        font-weight: 450;
+        margin: 0 25px 25px 25px;
+    }
+    .container-all-project hr {
+        border: 0;
+        margin: 0;
+        height: 0.1rem;
+        background-color: #227B94;
+        margin: 0 25px;
+    }
+    .container-project {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10px 10px;
+        padding: 0 25px;
+    }
+    #punktensSpel {
+        width: 100%;
+    }
+
+    #contact {
+        padding: 50px 25px;
+    }
+
+    footer {
+        padding: 50px 25px 25px 25px;
+    }
+}
+
+
