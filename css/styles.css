@@ -14,7 +14,7 @@ body {
     justify-content: space-around;
     align-items: center;
     color: #EEF5FF;
-    padding: 1rem 10px;
+    padding: 1rem 0.5rem;
     width: 50%;
 }
 
@@ -36,7 +36,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     float: left;
-    margin-right: 10px;
+    margin-right: 0.5rem;
 }
 
 .section-nav {
@@ -104,8 +104,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #227B94;
-    padding: 5px 20px;
-    border-radius: 10px;
+    padding: 1rem 2rem;
+    border-radius: 50px;
     margin-top: 10px;
 }
 
@@ -130,9 +130,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 10px;
-    width: 50px;
-    height: 50px;
+    margin: 0 0.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 50%;
     color: #16325B;
     font-size: 1.5rem;
@@ -171,11 +171,7 @@ a {
 #about {
     background-color: #FFDC7F;
     color: #3C3728;
-    padding: 50px 0;
-}
-
-#about > h2 {
-    margin-left: 50px;
+    padding: 100px 200px;
 }
 
 #about  p {
@@ -198,7 +194,7 @@ a {
     margin: 0.2rem;
     height: 50px;
     background-color: #16325B;
-    border-radius: 10px;
+    border-radius: 50px;
     color: #FFDC7F;
 }
 
@@ -216,7 +212,7 @@ a {
 
 .section-about {
     width: 50%;
-    margin: 50px;
+    margin: 50px 50px 0 0;
 }
 
 .section-about > h3 {
@@ -229,13 +225,11 @@ a {
 #projects {
     background-color: #16325B;
     color: #EEF5FF;
-    padding: 50px 0 0 0;
+    padding: 100px 0 100px 0;
 }
-
 #projects > h2 {
-    margin: 0 50px 50px 50px;
+    margin: 0 200px 50px 200px;
 }
-
 .container-all-project {
     display: flex;
     flex-direction: column;
@@ -243,54 +237,44 @@ a {
     padding: 0;
     margin: 0;
 }
-
 .container-all-project > li {
     background-color: #16325B;
     transition: background-color 0.5s;
 }
-
 .container-all-project > li:hover {
     background-color: #227B94;
 }
-
-
 .container-project {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 100px;
+    margin: 50px 200px;
 }
-
 .container-all-project hr {
     border: 0;
     margin: 0;
     height: 0.1rem;
     background-color: #227B94;
-    margin: 0 50px;
+    margin: 0 100px;
 }
-
 .project-details {
     width: 30vw;
     margin-right: 0.5rem;
 }
-
 .name-project {
     font-size: 2.5rem;
     margin: 0;
     font-weight: 450;
 }
-
 .description-project {
     margin: 0;
     display: inline-block;
 }
-
 .image-project {
     width: 120px;
     margin: 0.5rem;
     border-radius: 10px;
 }
-
 .container-image-project {
     display: flex;
     justify-content: space-between;
@@ -298,7 +282,6 @@ a {
     margin-top: 0.5rem;
     width: 70vw;
 }
-
 #punktensSpel {
     width: 40%;
     height: auto;
@@ -309,39 +292,52 @@ a {
 #contact {
     background-color: #FFDC7F;
     color: #3C3728;
-    padding: 50px;
-}
-
-#contact > div {
+    padding: 100px 200px;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
 }
-
-
+.container-contact-detail {
+    display: flex;
+    justify-content: left;
+}
+.contact-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFC47E;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+.contact-detail span {
+    margin: 0;
+    padding: 0;
+    margin-right: 0.5rem;
+}
+.contact-detail p {
+    padding: 0;
+    margin: 0;
+}
+.mail span {
+    margin-top: 2px;
+}
+.number {
+    margin-left: 10px;
+}
 #contact a {
     background-color: #16325B;
     color: #FFDC7F;
-    font-size: 1.5rem;
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 50%;
     font-weight: 450;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 7rem;
+    height: 7rem;
+    transition: background-color 0.5s;
 }
-
-#contact a p {
-    display: inline-block;
-    margin: 0;
-}
-
-
-#contact a span {
-    display: inline-block;
-    margin: 0;
-    margin-left: 10px;
-}
-
 #contact a:hover {
     background-color: #227B94;
 }
@@ -350,10 +346,9 @@ footer {
     background-color: #16325B;
     color: #EEF5FF;
     display: flex;
-    padding: 50px 0 20px 50px;
+    padding: 50px 175px 40px 200px;
     justify-content: space-between;
 }
-
 #hr-footer {
     border: 0;
     margin: 0;
@@ -404,6 +399,36 @@ footer a {
 footer a:hover {
     color: #EEF5FF;
     text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    #about {
+        padding: 50px 100px;
+    }
+
+    #projects {
+        padding: 50px 0 0 0;
+    }
+    #projects > h2 {
+        margin: 0 100px 50px 100px;
+    }
+    .container-all-project hr {
+        margin: 0 50px;
+    }
+    .container-project {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 100px;
+    }
+
+    #contact {
+        padding: 50px 100px;
+    }
+
+    footer {
+        padding: 50px 75px 20px 100px;
+    }
 }
 
 
@@ -483,6 +508,28 @@ footer a:hover {
         width: 70%;
     }
 
+    #contact {
+        flex-direction: column;
+    }
+
+    #contact h2{
+        text-align: center;
+    }
+
+    #contact a {
+        margin-top: 1rem;
+    }
+
+    .container-contact-detail {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-detail {
+        margin: 10px 10px 0 10px;
+        padding: 1rem 0;
+    }
+
     footer {
         flex-direction: column;
         padding: 50px 50px 20px 50px;
@@ -542,6 +589,11 @@ footer a:hover {
         text-align: center;
         margin: 10px 10px;
         padding: 0 25px;
+    }
+    .contact-detail {
+        margin: 10px 0 0 0;
+        padding: 1rem 0;
+        flex-direction: column;
     }
     #punktensSpel {
         width: 100%;
