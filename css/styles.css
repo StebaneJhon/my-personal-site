@@ -239,13 +239,7 @@ a {
 }
 .container-all-project > li {
     background-color: #16325B;
-    /*transition: background-color 0.5s;*/
 }
-/*
-.container-all-project > li:hover {
-    background-color: #227B94;
-}
-*/
 .container-project {
     display: flex;
     justify-content: center;
@@ -426,7 +420,7 @@ footer a:hover {
     }
 
     #projects {
-        padding: 50px 0 0 0;
+        padding: 50px 0 50px 0;
     }
     #projects > h2 {
         margin: 0 100px 50px 100px;
