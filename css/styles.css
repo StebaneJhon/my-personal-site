@@ -239,11 +239,13 @@ a {
 }
 .container-all-project > li {
     background-color: #16325B;
-    transition: background-color 0.5s;
+    /*transition: background-color 0.5s;*/
 }
+/*
 .container-all-project > li:hover {
     background-color: #227B94;
 }
+*/
 .container-project {
     display: flex;
     justify-content: center;
@@ -259,7 +261,7 @@ a {
 }
 .project-details {
     width: 30vw;
-    margin-right: 0.5rem;
+    margin-right: 50px;
 }
 .name-project {
     font-size: 2.5rem;
@@ -281,6 +283,23 @@ a {
     align-items: center;
     margin-top: 0.5rem;
     width: 70vw;
+}
+.to-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s;
+    background-color: #16325B;
+    padding: 1rem 2rem;
+    border: 0.1rem solid #227B94;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.to-github:hover {
+    background-color: #227B94;
+}
+.to-github-icon {
+    margin-left: 0.5rem;
 }
 #punktensSpel {
     width: 40%;
